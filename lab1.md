@@ -13,7 +13,7 @@
   
   ![Image](VSCODE.jpg)
   
-  **Remotely Connecting
+  __Remotely Connecting__:
   
   * To remotely connect into a course-specific account on ieng6, type 'ssh ' followed by your course-specific id , followed by '@ieng6.ucsd.edu'.
   For example, the remote login for id cse15lsp23zz will be 'ssh cse15lsp23z@ieng6.ucsd.edu'.
@@ -22,7 +22,7 @@
   
   ![Image](RemoteLogin.png)
   
-  **Running commands**:
+  __Running commands__:
   
   _Try running the commands cd, ls, pwd, mkdir, and cp a few times in different ways, both on your computer, and on the remote computer after ssh-ing (use the terminal in VScode).
   
