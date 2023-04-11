@@ -19,6 +19,7 @@
   For example, the remote login for id cse15lsp23zz will be 'ssh cse15lsp23z@ieng6.ucsd.edu'.
   
   Once logged in remotely, the terminal should look like this:
-  ![Image](RemoteLogin.png)
+  
+  \![Image](RemoteLogin.png)
  
   
