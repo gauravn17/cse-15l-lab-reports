@@ -20,6 +20,13 @@
   
   Once logged in remotely, the terminal should look like this:
   
-  \![Image](RemoteLogin.png)
+  ![Image](RemoteLogin.png)
+  
+  **Running commands:
+  
+  _Try running the commands cd, ls, pwd, mkdir, and cp a few times in different ways, both on your computer, and on the remote computer after ssh-ing (use the terminal in VScode).
+  
+  ![Image](Commands.png)
+  
  
   
