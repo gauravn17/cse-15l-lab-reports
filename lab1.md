@@ -18,5 +18,7 @@
   * To remotely connect into a course-specific account on ieng6, type 'ssh ' followed by your course-specific id , followed by '@ieng6.ucsd.edu'.
   For example, the remote login for id cse15lsp23zz will be 'ssh cse15lsp23z@ieng6.ucsd.edu'.
   
+  Once logged in remotely, the terminal should look like this:
+  ![Image](RemoteLogin.png)
  
   
