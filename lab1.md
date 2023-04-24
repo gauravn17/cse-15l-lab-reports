@@ -7,7 +7,7 @@
  **Installing VS code**:
   
  * Download VS code from the link below
-  [Link]https://code.visualstudio.com/download
+  https://code.visualstudio.com/download
   
   Once intalled, open VS code. It should look like this:
   
