@@ -29,5 +29,9 @@
   
   ![Image](Commands.png)
   
+ The command I used in the image above is ps ax, which is short for 'ps aux' in Linux. This command displays an overview of all processes that are running, which is helpful to understand and troubleshoot the health of the system.
+ 
+ Other useful commands are:
+ *  *cd* : 
  
   
