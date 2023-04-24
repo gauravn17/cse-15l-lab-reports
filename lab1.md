@@ -29,7 +29,7 @@
   
   ![Image](Commands.png)
   
- The command I used in the image above is ps ax, which is short for 'ps aux' in Linux. This command displays an overview of all processes that are running, which is helpful to understand and troubleshoot the system.
+ The command I used in the image above is ps ax. This command displays an overview of all processes that are running, which is helpful to understand and troubleshoot the system.
  
  Other useful, basic commands are:
 
