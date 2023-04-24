@@ -2,7 +2,7 @@
     
 * Look up your course-specific account for CSE15L here and reset your password:
 
-  [Link]https://sdacs.ucsd.edu/~icc/index.php
+  https://sdacs.ucsd.edu/~icc/index.php
 
  **Installing VS code**:
   
