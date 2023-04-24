@@ -11,7 +11,7 @@
   
   Once intalled, open VS code. It should look like this:
   
-  ![Image](VSCODE.jpg)
+  ![Image](VSCODE.png)
   
   __Remotely Connecting__:
   
