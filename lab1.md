@@ -36,6 +36,6 @@
  * _ssh_: Perhaps the most important command, ssh stands for 'Secure shell'. It is used to log into a computer over an unsecured network, as used in the 'Remotely Connecting' step of this tutorial.
  *  *cd* : Stands for 'change directory', used to change the current directory of the terminal. 
  *  _ls_ : Stands for 'list', used to list the names and features of files and directories.
- *  _pwd_: Prints the full name or path of the current dictory.
+ *  _pwd_: Prints the full name or path of the current directory.
  
   
