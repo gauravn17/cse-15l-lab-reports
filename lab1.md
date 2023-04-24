@@ -16,7 +16,7 @@
   
   __Remotely Connecting__:
   
-  * To remotely connect into a course-specific account on ieng6, type 'ssh ' followed by your course-specific id , followed by '@ieng6.ucsd.edu'.
+  * To remotely connect into a course-specific account on ieng6, create a new file on VS CODE and click 'New Terminal' from the 'Terminal' option at the top of the screen. Once a new terminal has opened, type 'ssh ' followed by your course-specific id , followed by '@ieng6.ucsd.edu'.
   For example, the remote login for id cse15lsp23zz will be 'ssh cse15lsp23z@ieng6.ucsd.edu'.
   
   Once logged in remotely, the terminal should look like this:
