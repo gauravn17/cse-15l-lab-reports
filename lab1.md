@@ -31,7 +31,11 @@
   
  The command I used in the image above is ps ax, which is short for 'ps aux' in Linux. This command displays an overview of all processes that are running, which is helpful to understand and troubleshoot the health of the system.
  
- Other useful commands are:
- *  *cd* : 
+ Other useful, basic commands are:
+
+ * _ssh_: Perhaps the most important command, ssh stands for 'Secure shell'. It is used to log into a computer over an unsecured network, as used in the 'Remotely Connecting' step of this tutorial.
+ *  *cd* : Stands for 'change directory', used to change the current directory of the terminal. 
+ *  _ls_ : Stands for 'list', used to list the names and features of files and directories.
+ *  _pwd_: Prints the full name or path of the current dictory.
  
   
