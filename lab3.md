@@ -2,7 +2,7 @@
 
 **Command line options of 'grep' command I used:**
 
-![Image](Grep command line options.png)
+![Image](Grep command line options.jpeg)
 
 grep -c : Displays the number of lines that matches the given string/pattern in a file
 
