@@ -14,3 +14,5 @@ grep -l : Displays list of filenames that contain given pattern
 
 
 grep -i : Case insensitive search: searches for string/pattern case-insensitively
+
+Source I found all command options from : https://www.geeksforgeeks.org/grep-command-in-unixlinux/
