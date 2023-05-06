@@ -57,6 +57,9 @@ For each of the screenshots the methods used are:
 - the split() method, which in this case helps create an array of strings split by the character '='.
 - the equals() method, which checks if the first element of the string array equals "s".
 
+Below is the screenshot of the bash terminal used to run the server:
+
+![Screenshot 2023-05-06 at 11 10 48 AM](https://user-images.githubusercontent.com/93863977/236640299-ab542ff4-9f43-43e1-8930-135aac1e9a94.png)
 
 ## Part 2
 
