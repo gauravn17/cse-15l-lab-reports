@@ -59,37 +59,37 @@ I will be addressing the bug in the reversed() method from the ArrayExamples.jav
 
 - A failure inducing input for the reversed() method is the following:
 
-public void testReversed1(){
-int input [] = {2,3,4,5,6};
-assertArrayEquals(new int[]{6,5,4,3,2},ArrayExamples.reversed(input));
-}
+    public void testReversed1(){
+    int input [] = {2,3,4,5,6};
+    assertArrayEquals(new int[]{6,5,4,3,2},ArrayExamples.reversed(input));
+    }
 
 - An input that does not produce a failure is the following:
 
-public void testReversed2(){
-int input []={};
-assertArrayEquals(new int[]{}, ArrayExamples.reversed(input));
-}
+    public void testReversed2(){
+    int input []={};
+    assertArrayEquals(new int[]{}, ArrayExamples.reversed(input));
+    }
 
 - The buggy code for the reversed() method:
 
-  static int[] reversed(int[] arr) {
-    int[] newArray = new int[arr.length];
-    for(int i = 0; i < arr.length; i += 1) {
-      arr[i] = newArray[arr.length - i - 1];
-    }
-    return arr;
-  }
+      static int[] reversed(int[] arr) {
+        int[] newArray = new int[arr.length];
+        for(int i = 0; i < arr.length; i += 1) {
+          arr[i] = newArray[arr.length - i - 1];
+        }
+        return arr;
+      }
   
 - The correct code for the reversed method is the following:
 
-  static int[] reversed(int[] arr) {
-    int[] newArray = new int[arr.length];
-    for(int i = 0; i < arr.length; i += 1) {
-      newArray[i] = arr[arr.length - i - 1];
-    }
-    return newArray;
-  }
+      static int[] reversed(int[] arr) {
+        int[] newArray = new int[arr.length];
+        for(int i = 0; i < arr.length; i += 1) {
+          newArray[i] = arr[arr.length - i - 1];
+        }
+        return newArray;
+      }
   
   The difference between the buggy and correct code, is that the buggy code assigns values from 'newArray', which has no elements, to the original array, 'arr' when it should be the other way around. 
   The buggy code also returns the original array, 'arr' instead of the new reversed array, 'newArray'.
