@@ -4,7 +4,7 @@
 
 **Writing a StringServer**
 
-The following is the code for StringServer, a web server that keeps track of a single string that gets added to by incoming requests.
+The following is the code for StringServer, a web server that keeps track of a single string that gets added to by incoming requests through the add/s=<string> operation.
 
     import java.io.IOException;
     import java.net.URI;
