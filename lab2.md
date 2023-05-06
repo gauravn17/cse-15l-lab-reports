@@ -45,6 +45,7 @@ The following is the code for StringServer, a web server that keeps track of a s
 ![Image](add1.png)
 
 ![Image](add2.png)
+
 For each of the screenshots the methods used are:
 
 - the getPath() method, which returns the path of a URL.
