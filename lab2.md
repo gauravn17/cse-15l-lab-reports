@@ -1,6 +1,6 @@
 # Lab Report 2 - Servers and Bugs
 
-##Part 1
+## Part 1
 
 **Writing a StringServer**
 
@@ -17,7 +17,7 @@ For each of the screenshots the methods used are:
 - the equals() method, which checks if the first element of the string array equals "s".
 
 
-##Part 2
+## Part 2
 
 **Using jUnit to identify bugs and fix them**
 
@@ -61,7 +61,7 @@ assertArrayEquals(new int[]{}, ArrayExamples.reversed(input));
   The buggy code also returns the original array, 'arr' instead of the new reversed array, 'newArray'.
   These problems are fixed with changes inside and after the for loop, where the line 'arr[i] = newArray[arr.length - i - 1]' is replaced with 'newArray[i] = arr[arr.length - i - 1]', and newArray is returned outside the for loop instead of 'arr'.
 
-##Part 3- Reflection
+## Part 3- Reflection
 
 -In lab 2, I learned about the different parts of a URL, how to use methods such as getPath() and getQuery() and also how to build and host web servers from the command line.
 -In lab 3, I gained more practice in reading through buggy code and using jUnit tests to debug.
