@@ -6,41 +6,41 @@
 
 The following is the code for StringServer, a web server that keeps track of a single string that gets added to by incoming requests.
 
-import java.io.IOException;
-import java.net.URI;
+    import java.io.IOException;
+    import java.net.URI;
 
-class Handler implements URLHandler {
-    String message="";
-    
-    public String handleRequest(URI url) {
-        if (url.getPath().equals("/")) {
-            return message;
-        } else {
-            System.out.println("Path :"+url.getPath());
-            if(url.getPath().contains("/add-message")){
-                String[] parameters= url.getQuery().split("=");
-                if(parameters[0].equals("s")){
-                    message+=parameters[1]+"\n";
-                }
+    class Handler implements URLHandler {
+        String message="";
+
+        public String handleRequest(URI url) {
+            if (url.getPath().equals("/")) {
                 return message;
-            }
-            return "404 Not Found!";
-        } 
-}
-}
-
-class StringServer {
-    public static void main(String[] args) throws IOException {
-        if(args.length == 0){
-            System.out.println("Missing port number! Try any number between 1024 to 49151");
-            return;
-        }
-
-        int port = Integer.parseInt(args[0]);
-
-        Server.start(port, new Handler());
+            } else {
+                System.out.println("Path :"+url.getPath());
+                if(url.getPath().contains("/add-message")){
+                    String[] parameters= url.getQuery().split("=");
+                    if(parameters[0].equals("s")){
+                        message+=parameters[1]+"\n";
+                    }
+                    return message;
+                }
+                return "404 Not Found!";
+            } 
     }
-}
+    }
+
+    class StringServer {
+        public static void main(String[] args) throws IOException {
+            if(args.length == 0){
+                System.out.println("Missing port number! Try any number between 1024 to 49151");
+                return;
+            }
+
+            int port = Integer.parseInt(args[0]);
+
+            Server.start(port, new Handler());
+        }
+    }
 
 For each of the screenshots the methods used are:
 
@@ -97,6 +97,6 @@ assertArrayEquals(new int[]{}, ArrayExamples.reversed(input));
 
 ## Part 3- Reflection
 
-- In lab 2, I learned about the different parts of a URL, how to use methods such as getPath() and getQuery() and also how to build and host web servers from the command line.
+- In lab 2, I learned about the different parts of a URL, how to use methods such as getPath() and getQuery() and also how to build and host web servers from the command line. I had a lot of trouble running the server at first due to the file not being in the right directory, and finally troubleshooting that and getting it to work was a great learning experience for me.
 - In lab 3, I gained more practice in reading through buggy code and using jUnit tests to debug.
 
