@@ -41,6 +41,8 @@ The following is the code for StringServer, a web server that keeps track of a s
             Server.start(port, new Handler());
         }
     }
+    
+ The following are the screenshots taken after running the StringServer and using /add?s=Hello and /add?s=How are you, respectively:
 
  ![Add1](https://user-images.githubusercontent.com/93863977/236639925-5b73f28f-4e58-44f7-8910-f84afd90255a.png)
 
