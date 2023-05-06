@@ -10,10 +10,10 @@ The following is the code for StringServer, a web server that keeps track of a s
 
 For each of the screenshots the methods used are:
 
--the getPath() method, which returns the path of a URL.
--the contains() method, which checks if the path of the url contains a given string, and returns a boolean value.
--the getQuery() method, which returns the query of the URL( the portion of the URL after '?q=')
--the split() method, which in this case helps create an array of strings split by the character '='.
+- the getPath() method, which returns the path of a URL.
+- the contains() method, which checks if the path of the url contains a given string, and returns a boolean value.
+- the getQuery() method, which returns the query of the URL( the portion of the URL after '?q=')
+- the split() method, which in this case helps create an array of strings split by the character '='.
 - the equals() method, which checks if the first element of the string array equals "s".
 
 
