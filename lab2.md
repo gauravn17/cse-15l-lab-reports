@@ -37,7 +37,7 @@ int input []={};
 assertArrayEquals(new int[]{}, ArrayExamples.reversed(input));
 }
 
--The buggy code for the reversed() method:
+- The buggy code for the reversed() method:
 
   static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
