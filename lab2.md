@@ -23,14 +23,14 @@ For each of the screenshots the methods used are:
 
 I will be addressing the bug in the reversed() method from the ArrayExamples.java code.
 
--A failure inducing input for the reversed() method is the following:
+- A failure inducing input for the reversed() method is the following:
 
 public void testReversed1(){
 int input [] = {2,3,4,5,6};
 assertArrayEquals(new int[]{6,5,4,3,2},ArrayExamples.reversed(input));
 }
 
--An input that does not produce a failure is the following:
+- An input that does not produce a failure is the following:
 
 public void testReversed2(){
 int input []={};
@@ -47,7 +47,7 @@ assertArrayEquals(new int[]{}, ArrayExamples.reversed(input));
     return arr;
   }
   
--The correct code for the reversed method is the following:
+- The correct code for the reversed method is the following:
 
   static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
@@ -63,6 +63,6 @@ assertArrayEquals(new int[]{}, ArrayExamples.reversed(input));
 
 ## Part 3- Reflection
 
--In lab 2, I learned about the different parts of a URL, how to use methods such as getPath() and getQuery() and also how to build and host web servers from the command line.
--In lab 3, I gained more practice in reading through buggy code and using jUnit tests to debug.
+- In lab 2, I learned about the different parts of a URL, how to use methods such as getPath() and getQuery() and also how to build and host web servers from the command line.
+- In lab 3, I gained more practice in reading through buggy code and using jUnit tests to debug.
 
