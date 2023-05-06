@@ -42,10 +42,10 @@ The following is the code for StringServer, a web server that keeps track of a s
         }
     }
 
-![Image](add1.png) ![Add1](https://user-images.githubusercontent.com/93863977/236639925-5b73f28f-4e58-44f7-8910-f84afd90255a.png)
+ ![Add1](https://user-images.githubusercontent.com/93863977/236639925-5b73f28f-4e58-44f7-8910-f84afd90255a.png)
 
 
-![Image](add2.png) ![Add2](https://user-images.githubusercontent.com/93863977/236639930-cb0b238e-e9f6-4b4f-8a99-f3f4dbda1d83.png)
+ ![Add2](https://user-images.githubusercontent.com/93863977/236639930-cb0b238e-e9f6-4b4f-8a99-f3f4dbda1d83.png)
 
 For each of the screenshots the methods used are:
 
