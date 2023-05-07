@@ -60,7 +60,8 @@ For each of the screenshots the methods used are:
 - For the first screenshot,the value of String parameters[] is {"s","Hello"} (due to the url.getQuery.split("=") method), and thus, since message+=parameters[1], the value of String message is "Hello", which is returned to the page.
 - For the second screenshot,the value of String parameters[] is {"s","How are you"} (due to the url.getQuery.split("=") method), and thus, since message+=parameters[1], the value of String message is "How are you", which is returned to the page.
 - For both screenshots, the value of int port is args[0], which is 4001.
-- For both screenshot, the value of URI url is the url of the server.
+- For both screenshots, the value of URI url is the url of the local server.
+- For both screenshots, url.getPath() returns "/add-message?", and the condition url.getPath.contains("/add-message") returns true.
 
 Below is the screenshot of the bash terminal used to run the server:
 
