@@ -67,6 +67,10 @@ Below is the screenshot of the bash terminal used to run the server:
 
 I will be addressing the bug in the reversed() method from the ArrayExamples.java code.
 
+![Screenshot 2023-05-06 at 8 17 03 PM](https://user-images.githubusercontent.com/93863977/236655816-bb4cc98b-2646-4023-989b-72871b58d0d7.png)
+
+
+
 - A failure inducing input for the reversed() method is the following:
 
     public void testReversed1(){
