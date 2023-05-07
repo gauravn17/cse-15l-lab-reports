@@ -59,7 +59,7 @@ For each of the screenshots the methods used are:
 
 - For the first screenshot,the value of String parameters[] is {"s","Hello"} (due to the url.getQuery.split("=") method), and thus, since message+=parameters[1], the value of String message is "Hello", which is returned.
 - For the second screenshot,the value of String parameters[] is {"s","How are you"} (due to the url.getQuery.split("=") method), and thus, since message+=parameters[1], the value of String message is "How are you", which is returned.
--For both screenshots, the value of int port is args[0], which is 4001.
+- For both screenshots, the value of int port is args[0], which is 4001.
 
 Below is the screenshot of the bash terminal used to run the server:
 
