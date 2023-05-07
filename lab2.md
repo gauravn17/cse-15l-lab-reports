@@ -73,14 +73,14 @@ I will be addressing the bug in the reversed() method from the ArrayExamples.jav
 
 - A failure inducing input for the reversed() method is the following:
 
-        public void testReversed1(){
+        public void testReversed(){
         int input [] = {2,3,4,5,6};
         assertArrayEquals(new int[]{6,5,4,3,2},ArrayExamples.reversed(input));
         }
 
 - An input that does not produce a failure is the following:
 
-        public void testReversed2(){
+        public void testReversed(){
         int input []={};
         assertArrayEquals(new int[]{}, ArrayExamples.reversed(input));
         }
