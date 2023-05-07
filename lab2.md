@@ -32,7 +32,7 @@ The following is the code for StringServer, a web server that keeps track of a s
     class StringServer {
         public static void main(String[] args) throws IOException {
             if(args.length == 0){
-                System.out.println("Missing port number! Try any number between 1024 to 49151");
+                System.out.println("Missing port number! Try any number between 1024 and 49151");
                 return;
             }
 
@@ -57,9 +57,10 @@ For each of the screenshots the methods used are:
 - the split() method, which in this case helps create an array of strings split by the character '='.
 - the equals() method, which checks if the first element of the string array equals "s".
 
-- For the first screenshot,the value of String parameters[] is {"s","Hello"} (due to the url.getQuery.split("=") method), and thus, since message+=parameters[1], the value of String message is "Hello", which is returned.
-- For the second screenshot,the value of String parameters[] is {"s","How are you"} (due to the url.getQuery.split("=") method), and thus, since message+=parameters[1], the value of String message is "How are you", which is returned.
+- For the first screenshot,the value of String parameters[] is {"s","Hello"} (due to the url.getQuery.split("=") method), and thus, since message+=parameters[1], the value of String message is "Hello", which is returned to the page.
+- For the second screenshot,the value of String parameters[] is {"s","How are you"} (due to the url.getQuery.split("=") method), and thus, since message+=parameters[1], the value of String message is "How are you", which is returned to the page.
 - For both screenshots, the value of int port is args[0], which is 4001.
+- For both screenshot, the value of URI url is the url of the server.
 
 Below is the screenshot of the bash terminal used to run the server:
 
