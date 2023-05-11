@@ -2,7 +2,7 @@
 
 **Command line options of 'grep' command I used:**
 
-![Image](grep.jpeg)
+![grep](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/f553deab-b118-445f-9052-f87819ffe2aa)
 
 grep -c : Displays the number of lines that matches the given string/pattern in a file
 
