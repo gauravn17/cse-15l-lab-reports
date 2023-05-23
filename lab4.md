@@ -8,9 +8,11 @@ For Step 1, I logged into ieng6 with by ssh-ing into my account, using ssh cs15l
 
 # Step 2: Clone your fork of the repository from your GitHub account
 
-For Step 2, I copied the HTTPS URL of the lab7 fork from my GitHub account, typed git clone https://github.com/gauravn17/lab7.git), which cloned the repository into my ssh account.
+For Step 2, I copied the HTTPS URL of the lab7 fork from my GitHub account, typed git clone <Ctrl v HTTPS URL of lab 7 fork> , which cloned the repository into my ssh account.
 
-![Screenshot 2023-05-22 at 8 38 20 PM](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/c03f06eb-211d-448e-a269-7f76ff74448a)
+![Screenshot 2023-05-22 at 8 40 50 PM](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/b35e0ef0-42ac-47fe-8476-02477a8d2977)
+
+![Screenshot 2023-05-22 at 8 43 46 PM](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/0b205e6a-b8ca-4bf7-a0e3-4f71f5dd6cd9)
 
 
 # Step 3: Run the tests, demonstrating that they fail
