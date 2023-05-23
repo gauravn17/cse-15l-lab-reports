@@ -2,7 +2,7 @@
 
 # Step 1: Log into ieng6
 
-For Step 1, I logged into ieng6 with by ssh-ing into my account, using ssh cs15lsp23es@ieng6.ucsd.edu and my password.
+  For Step 1, I logged into ieng6 with by ssh-ing into my account, using ssh cs15lsp23es@ieng6.ucsd.edu and my password.
 
 ![Screenshot 2023-05-22 at 8 38 20 PM](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/edc85a15-d5d4-4e02-abfc-5d0a74010126)
 
