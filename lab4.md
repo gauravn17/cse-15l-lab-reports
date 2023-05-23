@@ -17,7 +17,7 @@ For Step 2, I copied the HTTPS URL of the lab7 fork from my GitHub account, type
 
 # Step 3: Run the tests, demonstrating that they fail
 
-For Step 3 , I navigated into the 'lab7' directory by typing ```cd lab7```. I then typed ls  to view all the file names contained in lab7. Finally, I typed bash test.sh, which ran the tests , while showing that they failed.
+For Step 3 , I navigated into the 'lab7' directory by typing ```cd lab7```. I then typed ls  to view all the file names contained in lab7. Finally, I typed `bash test.sh`, which ran the tests , while showing that they failed.
   
  ![Screenshot 2023-05-22 at 8 49 36 PM](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/25360ce3-2231-43ac-b2cd-a4767d2bf0ac)
 
