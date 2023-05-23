@@ -45,7 +45,7 @@ For this step, I re-ran the tests by pressing <up><up> and then <enter> to run b
 
 # Step 6: Commit and push the resulting change to your Github account
   
-    For this step, I used git add ListExamples.java to track the file so that when git commit is called, it knows which file to include. I then typed git commit -m "changes" to record the repository changes. Finally, I typed git push, my username gauravn17 , and my GitHub password . This updated the commit changes and sent them to the remote repository.
+ For this step, I used git add ListExamples.java to track the file so that when git commit is called, it knows which file to include. I then typed git commit -m "changes" to record the repository changes. Finally, I typed git push, my username gauravn17 , and my GitHub password . This updated the commit changes and sent them to the remote repository.
   
  ![Screenshot 2023-05-22 at 9 36 27 PM](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/d8274215-3369-46d6-83a8-1eff93f328a0)
 
