@@ -44,6 +44,9 @@ For this step, I re-ran the tests by pressing <up><up> and then <enter> to run b
 
 
 # Step 6: Commit and push the resulting change to your Github account
-For this final step, I typed git add L then pressed <tab> to autocomplete to git add ListExamples, then typed .java at the end and pressed <enter>. This git action tracks the file so that when git commit is called, it knows which one(s) to include. I then typed git commit -m "changes" and pressed <enter>. This git action records the repository changes. Finally, I typed git push and <enter>, my username keeanalbao and <enter>, and my GitHub password and <enter>. This does the action of updating the commit changes and sending it to the remote repository.
+  
+For this step, I used git add ListExamples.java to track the file so that when git commit is called, it knows which one(s) to include. I then typed git commit -m "changes" to record the repository changes. Finally, I typed git push and <enter>, my username gauravn17 , and my GitHub password and <enter>. This does the action of updating the commit changes and sending it to the remote repository.
+  
+ 
 
   
