@@ -1,8 +1,8 @@
 # Researching the `grep` Command:
 
-The `grep ` command is a powerful tool for searching and pattern matching within file contents. In this lab report , I will explore 4 different command line options of  `grep` through instances of their use.
+The `grep ` command is a powerful tool for searching and pattern matching within file contents, which could be particularly useful while working with large text files. In this lab report , I will explore 4 different command line options of  `grep` through instances of their use.
 
-**Command line options of 'grep' command I used on the files of directory `'technical'` :** 
+**Command line options of 'grep' command I used on the files of directory `technical` :** 
 
 `grep -c` : Displays the number of lines that matches the given string/pattern in a file
 
@@ -18,6 +18,8 @@ Examples of the command and output for each example are shown in the screenshots
 
 `grep -w` : Checks for whole words in a file. Returns all the whole strings the given string is a part of in the file.
 
+This option is useful when we wish to locate where the exact string occurs in the file. 
+
 Examples of the command and output for each example are shown in the screenshots below:
 
 ![Screenshot 2023-05-23 at 11 29 48 AM](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/08f0265e-330c-48ec-bc63-99c99ab003bf)
@@ -26,6 +28,7 @@ Examples of the command and output for each example are shown in the screenshots
 
 
 `grep -l` : Displays list of filenames that contain given pattern
+This option is useful to filter out all the files that contain a particular string, so that we know which files to work with.
 
 Examples of the command and output for each example are shown in the screenshots below:
 
@@ -35,7 +38,7 @@ Examples of the command and output for each example are shown in the screenshots
 
 `grep -i` : Case insensitive search: searches for string/pattern case-insensitively
 
-This is useful as sometimes we might want to look at all occurences of the given string, independent of the case. For instance, the starting word of a sentence always begins with a capital letter. -i would allow us to match with that word even when the matching string is entirely in lowercase.
+This option is useful when we wish to look at all occurences of a particular string/pattern, independent of the case. For instance, the starting word of a sentence always begins with a capital letter. `-i` would allow us to search and locate that word even when the matching string is entirely in lowercase.
 
 Examples of the command and output for each example are shown in the screenshots below:
 
