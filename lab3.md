@@ -2,8 +2,6 @@
 
 **Command line options of 'grep' command I used on the files of directory 'technical' :**
 
-![grep](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/f553deab-b118-445f-9052-f87819ffe2aa)
-
 `grep -c` : Displays the number of lines that matches the given string/pattern in a file
 
 ![Screenshot 2023-05-22 at 11 51 15 PM](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/dceeeb06-4c1f-4c1c-8655-f6e5fbcaab89)
