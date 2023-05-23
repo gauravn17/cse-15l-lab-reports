@@ -43,4 +43,4 @@ Examples of the command and output for each example are shown in the screenshots
 
 Source I found all command options from : 
 
-![Link](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
+![GeeksForGeeks](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
