@@ -1,14 +1,15 @@
-Lab Report 4
+# Lab Report 4
 
 Step 1: Log into ieng6
 
-For this step, I typed ssh cs15lsp23ln@ieng6.ucsd.edu, <enter>, my password, and <enter> again to log into ieng6.
+For Step 1, I logged into ieng6 with by ssh-ing into my account, using ssh cs15lsp23es@ieng6.ucsd.edu and my password.
 
 Step 2: Clone your fork of the repository from your GitHub account
-For this step, I copied the HTTPS URL of the lab7 fork from my GitHub account, typed git clone https://github.com/keeanalbao/lab7.git (using <ctrl-v> for the URL), and then <enter> into the command line. This cloned the repository into my ssh account.
 
+For Step 2, I copied the HTTPS URL of the lab7 fork from my GitHub account, typed git clone https://github.com/gauravn17/lab7.git), which cloned the repository into my ssh account.
 
 Step 3: Run the tests, demonstrating that they fail
+
 For this step, I changed to the lab7 directory by typing cd l, pressing <tab> to autocomplete it, and pressing <enter>. I then typed ls and <enter> to list all the files/directories in lab7. Finally, I typed bash t, <tab> to autocomplete to bash test.sh, and pressed <enter>, which ran the tests (and showed that they failed).
 
 Step 4: Edit the code file to fix the failing test
