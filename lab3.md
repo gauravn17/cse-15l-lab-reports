@@ -1,4 +1,4 @@
-# Researching Commands:
+# Researching the `grep` Command:
 
 **Command line options of 'grep' command I used on the files of directory 'technical' :**
 
