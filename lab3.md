@@ -2,7 +2,7 @@
 
 The `grep ` command is a powerful tool for searching and pattern matching within file contents. In this lab report , I will explore 4 different command line options of  `grep` through instances of their use.
 
-**Command line options of 'grep' command I used on the files of directory 'technical' :** 
+**Command line options of 'grep' command I used on the files of directory `'technical'` :** 
 
 `grep -c` : Displays the number of lines that matches the given string/pattern in a file
 
