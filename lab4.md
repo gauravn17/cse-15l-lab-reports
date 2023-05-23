@@ -8,7 +8,7 @@ For Step 1, I logged into ieng6 with by ssh-ing into my account, using ssh cs15l
 
 # Step 2: Clone your fork of the repository from your GitHub account
 
-For Step 2, I copied the HTTPS URL of the lab7 fork from my GitHub account, typed git clone <Ctrl v HTTPS URL of lab 7 fork> , which cloned the repository into my ssh account.
+For Step 2, I copied the HTTPS URL of the lab7 fork from my GitHub account, typed git clone <Ctrl V <HTTPS URL of lab 7 fork> > , which cloned the repository into my ssh account.
 
 ![Screenshot 2023-05-22 at 8 40 50 PM](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/b35e0ef0-42ac-47fe-8476-02477a8d2977)
 
@@ -17,20 +17,33 @@ For Step 2, I copied the HTTPS URL of the lab7 fork from my GitHub account, type
 
 # Step 3: Run the tests, demonstrating that they fail
 
-For this step, I changed to the lab7 directory by typing cd l, pressing <tab> to autocomplete it, and pressing <enter>. I then typed ls and <enter> to list all the files/directories in lab7. Finally, I typed bash t, <tab> to autocomplete to bash test.sh, and pressed <enter>, which ran the tests (and showed that they failed).
+For Step 3 , I navigated into the 'lab7' directory by typing cd lab7. I then typed ls  to view all the file names contained in lab7. Finally, I typed bash test.sh, which ran the tests , while showing that they failed.
+  
+ ![Screenshot 2023-05-22 at 8 49 36 PM](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/25360ce3-2231-43ac-b2cd-a4767d2bf0ac)
+
 
 # Step 4: Edit the code file to fix the failing test
 For this step, I typed vim L and <tab> to autocomplete to vim ListExamples, then typed .java at the end, and finally pressed <enter>. This opens Vim and the file that needs to be edited in the terminal.
+  
 
 Next, the cursor was already on top of the 1 that I needed to change in ListExamples, so I simply typed x to delete the 1. This was done in Vim's normal mode.
 
-I then pressed i to enter insert mode in Vim, and typed 2 to correct the error.
+I then pressed i to enter insert mode in Vim, and typed 2 to correct the error
+  
+  ![Screenshot 2023-05-22 at 9 04 02 PM](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/17ef8b81-69c5-4f23-bab8-06a47e388263)
+
 
 Finally, I pressed the <esc> key to switch back to normal mode in Vim, and then typed :wq to exit Vim and save the file.
+  
+![Screenshot 2023-05-22 at 9 05 33 PM](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/99ceb63c-0f48-44ec-8351-976597309562)
 
 # Step 5: Run the tests, demonstrating that they now succeed
 For this step, I re-ran the tests by pressing <up><up> and then <enter> to run bash test.sh again, this time showing that the tests passed.
 
+  ![Screenshot 2023-05-22 at 9 09 29 PM](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/f13f7917-f13e-4819-a365-670517f6c2a7)
+
 
 # Step 6: Commit and push the resulting change to your Github account
 For this final step, I typed git add L then pressed <tab> to autocomplete to git add ListExamples, then typed .java at the end and pressed <enter>. This git action tracks the file so that when git commit is called, it knows which one(s) to include. I then typed git commit -m "changes" and pressed <enter>. This git action records the repository changes. Finally, I typed git push and <enter>, my username keeanalbao and <enter>, and my GitHub password and <enter>. This does the action of updating the commit changes and sending it to the remote repository.
+
+  
