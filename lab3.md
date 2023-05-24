@@ -18,7 +18,7 @@ Examples of the command and its corresponding output for each example are shown 
 
 ## `grep -w` : Checks for whole words in a file. Returns all the whole strings the given string is a part of in the file.
 
-This option is useful when we wish to locate where the exact string occurs in the file, which could be useful when looking for specific  *exact* terms in a file and finding the context that term is used in.
+This option is useful when we wish to locate where the exact string occurs in the file, which could be useful when looking for an *exact* term in a file and finding the context that term is used in.
 
 Examples of the command and its corresponding output for each example are shown in the screenshots below:
 
