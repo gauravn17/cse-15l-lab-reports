@@ -18,7 +18,7 @@ Examples of the command and its corresponding output for each example are shown 
 
 ## `grep -w` : Checks for whole words in a file. Returns all the whole strings the given string is a part of in the file.
 
-This option is useful when we wish to locate where the exact string occurs in the file. 
+This option is useful when we wish to locate where the exact string occurs in the file, which could be useful when looking for specific  *exact* terms in a file and finding the context that term is used in.
 
 Examples of the command and its corresponding output for each example are shown in the screenshots below:
 
@@ -28,7 +28,8 @@ Examples of the command and its corresponding output for each example are shown 
 
 
 ## `grep -l` : Displays list of filenames that contain given pattern
-This option is useful to filter out all the files that contain a particular string, so that we know which files to work with.
+
+This option is useful to filter out all the files that contain a particular string, so that we know which files to work with when searching for that string.
 
 Examples of the command and its corresponding output for each example are shown in the screenshots below:
 
@@ -38,7 +39,7 @@ Examples of the command and its corresponding output for each example are shown 
 
 ## `grep -i` : Case insensitive search: searches for string/pattern case-insensitively
 
-This option is useful when we wish to look at all occurences of a particular string/pattern, independent of the case. For instance, the starting word of a sentence always begins with a capital letter. `-i` would allow us to search and locate that word even when the matching string is entirely in lowercase.
+This option is useful when we wish to look at all occurences of a particular string/pattern, independent of the case. For instance, the starting word of a sentence always begins with a capital letter. `-i` would allow us to search and locate that word even if the matching string is entirely in lowercase.
 
 Examples of the command and its corresponding output for each example are shown in the screenshots below:
 
