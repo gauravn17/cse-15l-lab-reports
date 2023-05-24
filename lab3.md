@@ -1,6 +1,6 @@
 # Researching the `grep` Command:
 
-The `grep ` command is a powerful tool for searching and pattern matching within file contents, which could be particularly useful while working with large text files. In this lab report , I will explore 4 different command line options of  `grep` through instances of their use.
+The `grep ` command is a powerful tool for searching and pattern matching within file contents, which could be particularly useful while working with large text files. In this lab report , I will explore 4 different command line options of  `grep` through instances of their use: namely, the options `-c`, `-w`, `l` , and `-i` . 
 
 **Command line options of 'grep' command I used on the files of directory `technical` :** 
 
