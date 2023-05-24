@@ -62,6 +62,6 @@ Examples of the command and its corresponding output for each example are shown 
 
 ![Screenshot 2023-05-23 at 11 35 09 AM](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/e9e41759-aed6-4f4d-8110-a2c89094e86b)
 
-Source I found all command options from : 
+## Source I found all command options from : 
 
 [GeeksForGeeks](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
