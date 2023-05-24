@@ -10,8 +10,11 @@ This is useful when we want to count the number of times a particular string is 
 
 Examples of the command and its corresponding output for each example are shown in the screenshots below:
 
+**Example 1**
+
 ![Screenshot 2023-05-23 at 11 27 07 AM](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/242cf72a-4911-4ec4-87d9-a3ddbfaeff77)
 
+**Example 2**
 
 ![Screenshot 2023-05-23 at 11 28 04 AM](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/97132b25-d572-4da2-95b3-0bcd4d43ccb5)
 
@@ -22,7 +25,11 @@ This option is useful when we wish to locate where the exact string occurs in th
 
 Examples of the command and its corresponding output for each example are shown in the screenshots below:
 
+**Example 1**
+
 ![Screenshot 2023-05-23 at 11 29 48 AM](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/08f0265e-330c-48ec-bc63-99c99ab003bf)
+
+**Example 2**
 
 ![Screenshot 2023-05-23 at 11 30 04 AM](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/984a48dd-3c91-4694-b0ca-51cbd680975b)
 
@@ -33,7 +40,11 @@ This option is useful to filter out all the files that contain a particular stri
 
 Examples of the command and its corresponding output for each example are shown in the screenshots below:
 
+**Example 1**
+
 ![Screenshot 2023-05-23 at 11 31 35 AM](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/61acd9bd-e268-4fe1-8cab-6851c536bff0)
+
+**Example 2**
 
 ![Screenshot 2023-05-23 at 11 31 56 AM](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/f934300a-f5d3-48f5-a27b-20c032b3c6ec)
 
@@ -43,7 +54,11 @@ This option is useful when we wish to look at all occurences of a particular str
 
 Examples of the command and its corresponding output for each example are shown in the screenshots below:
 
+**Example 1**
+
 ![Screenshot 2023-05-23 at 11 35 27 AM](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/dba2f5c6-67bd-47b5-a1c2-63d18974258f)
+
+**Example 2**
 
 ![Screenshot 2023-05-23 at 11 35 09 AM](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/e9e41759-aed6-4f4d-8110-a2c89094e86b)
 
