@@ -8,7 +8,7 @@ The `grep ` command is a powerful tool for searching and pattern matching within
 
 This is useful when we want to count the number of times a particular string is repeated. For example, it may be particularly useful while working with massive files such as in a file with a DNA sequence, we can use this to find the number of adenine bases.
 
-Examples of the command and output for each example are shown in the screenshots below:
+Examples of the command and its corresponding output for each example are shown in the screenshots below:
 
 ![Screenshot 2023-05-23 at 11 27 07 AM](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/242cf72a-4911-4ec4-87d9-a3ddbfaeff77)
 
@@ -20,7 +20,7 @@ Examples of the command and output for each example are shown in the screenshots
 
 This option is useful when we wish to locate where the exact string occurs in the file. 
 
-Examples of the command and output for each example are shown in the screenshots below:
+Examples of the command and its corresponding output for each example are shown in the screenshots below:
 
 ![Screenshot 2023-05-23 at 11 29 48 AM](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/08f0265e-330c-48ec-bc63-99c99ab003bf)
 
@@ -30,7 +30,7 @@ Examples of the command and output for each example are shown in the screenshots
 ## `grep -l` : Displays list of filenames that contain given pattern
 This option is useful to filter out all the files that contain a particular string, so that we know which files to work with.
 
-Examples of the command and output for each example are shown in the screenshots below:
+Examples of the command and its corresponding output for each example are shown in the screenshots below:
 
 ![Screenshot 2023-05-23 at 11 31 35 AM](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/61acd9bd-e268-4fe1-8cab-6851c536bff0)
 
@@ -40,7 +40,7 @@ Examples of the command and output for each example are shown in the screenshots
 
 This option is useful when we wish to look at all occurences of a particular string/pattern, independent of the case. For instance, the starting word of a sentence always begins with a capital letter. `-i` would allow us to search and locate that word even when the matching string is entirely in lowercase.
 
-Examples of the command and output for each example are shown in the screenshots below:
+Examples of the command and its corresponding output for each example are shown in the screenshots below:
 
 ![Screenshot 2023-05-23 at 11 35 27 AM](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/dba2f5c6-67bd-47b5-a1c2-63d18974258f)
 
