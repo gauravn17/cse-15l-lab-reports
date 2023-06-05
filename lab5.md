@@ -14,11 +14,13 @@ I am trying to debug the ListExamples.java file, and both the testMerge1 and tes
 
 ![image](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/43725159-ffb8-4d01-ad9f-2a4d1a9b3131)
 
-I expected to see the two lists merge in order, but instead, they seem to be getting merged in reverse order.
+The lists are supposed to be merged in ascending order, but instead, they seem to be getting merged in descending order.
 
 **Detail the failure-inducing input and context. That might mean any or all of the command you're running, a test case, command-line arguments, working directory, even the last few commands you ran. Do your best to provide as much context as you can.**
 
-I can also use `bash test.sh` to compile and run these tests, but I'm not using Linux right now.
+
+
+I can also use `bash test.sh` to compile and run these tests, but I'm not currently using Linux.
 
 ## 2. Initial TA Response
 
