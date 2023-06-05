@@ -8,7 +8,7 @@ For Step 1, I logged into `ieng6` with by ssh-ing into my account, using `<ssh c
 
 # Step 2: Clone your fork of the repository from your GitHub account
 
-For Step 2, I copied the HTTPS URL of the lab7 fork from my GitHub account, typed `git clone` ```<Ctrl V <HTTPS URL of lab 7 fork> >``` , which cloned the repository into my ssh account.
+For Step 2, I copied the HTTPS URL of the lab7 fork from my GitHub account, typed `git clone` ```<Ctrl V <HTTPS URL of lab 7 fork> >``` and `<enter>` , which cloned the repository into my ssh account.
 
 ![Screenshot 2023-05-22 at 8 40 50 PM](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/b35e0ef0-42ac-47fe-8476-02477a8d2977)
 
