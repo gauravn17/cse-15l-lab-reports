@@ -47,12 +47,12 @@ Full command line(s) ran to trigger the bug
 
  ![Screenshot 2023-06-05 at 2 59 34 PM](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/d20e6da7-b996-4a4b-bffb-7ab1a501753c)
 
-**Description of what to edit to fix the bug
+**Description of what to edit to fix the bug**
 
-To fix this bug, you need to change the line containing the first if statement: if(list1.get(index1).compareTo(list2.get(index2)) > 0) to if(list1.get(index1).compareTo(list2.get(index2)) < 0) (the greater than operator is now a less than operator). This line compares the element at index1 in list1 to the element at index2 in list2. The bug made it so that if the first element was greater than the second element, then add the second element to the result list first, which made the list in descending order. By switching the sign, it will now merge in ascending order.
+To fix this bug, you need to change the line containing the first if statement: `if(list1.get(index1).compareTo(list2.get(index2)) > 0)` to `if(list1.get(index1).compareTo(list2.get(index2)) < 0)` (the greater than operator is now a less than operator). This line compares the element at `index1`in `list1` to the element at `index2` in `list2`. The bug made it so that if the first element was greater than the second element, then add the second element to the result list first, which made the list in descending order. By switching the sign, it will now merge in ascending order.
 
 ![image](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/3573579d-f904-48b1-9b29-ddf95768c085)
 
 ## 5. Reflection
 
-Something new that I learned in CSE 15L was Vim. I have never used Vim before much less even heard of it. It is a very unique programming language and text editor, and I wouldn't say I loved it, but I did find it very interesting and useful for the last few labs. I am sure Vim will be useful in the future working with software, and I cannot wait to research it in further detail. 
+Something new that I learned in CSE 15L was Vim. I had never used Vim before.I found it very interesting how it could be used to edit files from the command line itself,and I am sure Vim will be useful in the future working with software. I cannot wait to research it in further detail. 
