@@ -55,4 +55,4 @@ To fix this bug, you must change the line containing the first if statement: `if
 
 ## 5. Reflection
 
-Something new that I learned in CSE 15L was Vim. I had never used Vim before.I found it very interesting how it could be used to edit files from the command line itself,and I am sure Vim will be useful in the future working with software. I cannot wait to research it in further detail. 
+Something new that I learned in CSE 15L was Vim. I had never used Vim before, and found it very interesting how it could be used to edit files from the command line itself,and I am sure Vim will be a powerful tool in the future working with software. I cannot wait to research it in further detail. 
