@@ -49,10 +49,10 @@ Full command line(s) ran to trigger the bug
 
 **Description of edits to fix the bug**
 
-To fix this bug, you must change the line containing the first if statement: `if(list1.get(index1).compareTo(list2.get(index2)) > 0)` to `if(list1.get(index1).compareTo(list2.get(index2)) < 0)` (the greater than operator is now a less than operator). This line compares the element at `index1`in `list1` to the element at `index2` in `list2`. The bug made it so that if the first element was greater than the second element, then add the second element to the result list first, which made the list in descending order. By switching the sign, it will now merge in ascending order.
+To fix this bug, you must change the line containing the first `if` statement: `if(list1.get(index1).compareTo(list2.get(index2)) > 0)` to `if(list1.get(index1).compareTo(list2.get(index2)) < 0)` (replace the greater than operator with a less than operator). This line compares the element at `index1`in `list1` to the element at `index2` in `list2`. This bug was causing greater of the two elements compared at each iteration to be added to the results list, instead of the lesser of the two elements. Thus, the bug was causing the list to be merged in descending order instead of ascending order. By switching the sign from `>` to `<`, the bug is fixed, and the code will now merge the lists in ascending order.
 
 ![image](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/3573579d-f904-48b1-9b29-ddf95768c085)
 
 ## 5. Reflection
 
-Something new that I learned in CSE 15L was Vim. I had never used Vim before, and found it very interesting how it could be used to edit files from the command line itself,and I am sure Vim will be a powerful tool in the future working with software. I cannot wait to research it in further detail. 
+Something new that I learned in CSE 15L was Vim. I had never used Vim before, and found it very interesting how it could be used to edit files from the command line itself,and I am sure Vim will be a powerful tool in the future working with software. I cannot wait to research it in further detail. I also gained a better understanding of working with files and navigating directories, something that is invaluable in troubleshooting even in my programming assignments for other classes.
