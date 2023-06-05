@@ -6,7 +6,7 @@
 
 Visual Studio Code & JUnit
 
-Detail the symptom you're seeing. Be specific; include both what you're seeing and what you expected to see instead. Screenshots are great, copy-pasted terminal output is also great. Avoid saying “it doesn't work”.
+**Detail the symptom you're seeing. Be specific; include both what you're seeing and what you expected to see instead. Screenshots are great, copy-pasted terminal output is also great. Avoid saying “it doesn't work”.
 
 I am trying to debug the ListExamples.java file, and there are failures in the testMerge1 and testMerge2 tests. Here is the symptom:
 
@@ -14,9 +14,9 @@ I am trying to debug the ListExamples.java file, and there are failures in the t
 
 ![image](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/43725159-ffb8-4d01-ad9f-2a4d1a9b3131)
 
-I expected to see the two lists merge in order, but I seem to be merging them in reverse order.
+I expected to see the two lists merge in order, but instead, they seem to be getting merged in reverse order.
 
-Detail the failure-inducing input and context. That might mean any or all of the command you're running, a test case, command-line arguments, working directory, even the last few commands you ran. Do your best to provide as much context as you can.
+**Detail the failure-inducing input and context. That might mean any or all of the command you're running, a test case, command-line arguments, working directory, even the last few commands you ran. Do your best to provide as much context as you can.
 
 I can also use bash test.sh to compile and run these tests, but I'm not using Linux right now.
 
@@ -31,7 +31,7 @@ Here is the merge method. The while loops and index variables seem to be correct
 ![image](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/39ad6e85-9b7b-47e0-a950-d886f2c799ae)
 
 
-4. Final TA Response
+## 4. Final TA Response
 File & directory structure needed
 
 ![image](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/96b4b52d-2293-4e96-8193-bc1d4c48a69b)
@@ -45,7 +45,7 @@ Contents of each file before fixing the bug
 
 Full command line(s) ran to trigger the bug
 
-## Description of what to edit to fix the bug
+**Description of what to edit to fix the bug
 
 To fix this bug, you need to change the line containing the first if statement: if(list1.get(index1).compareTo(list2.get(index2)) > 0) to if(list1.get(index1).compareTo(list2.get(index2)) < 0) (the greater than operator is now a less than operator). This line compares the element at index1 in list1 to the element at index2 in list2. The bug made it so that if the first element was greater than the second element, then add the second element to the result list first, which made the list in descending order. By switching the sign, it will now merge in ascending order.
 
