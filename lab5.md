@@ -6,7 +6,7 @@
 
 Visual Studio Code & JUnit
 
-**Detail the symptom you're seeing. Be specific; include both what you're seeing and what you expected to see instead. Screenshots are great, copy-pasted terminal output is also great. Avoid saying “it doesn't work”.
+**Detail the symptom you're seeing. Be specific; include both what you're seeing and what you expected to see instead. Screenshots are great, copy-pasted terminal output is also great. Avoid saying “it doesn't work”.**
 
 I am trying to debug the ListExamples.java file, and both the testMerge1 and testMerge2 tests are failing . Here are the screenshots of the  tests running (symptom):
 
@@ -16,7 +16,7 @@ I am trying to debug the ListExamples.java file, and both the testMerge1 and tes
 
 I expected to see the two lists merge in order, but instead, they seem to be getting merged in reverse order.
 
-**Detail the failure-inducing input and context. That might mean any or all of the command you're running, a test case, command-line arguments, working directory, even the last few commands you ran. Do your best to provide as much context as you can.
+**Detail the failure-inducing input and context. That might mean any or all of the command you're running, a test case, command-line arguments, working directory, even the last few commands you ran. Do your best to provide as much context as you can.**
 
 I can also use `bash test.sh` to compile and run these tests, but I'm not using Linux right now.
 
