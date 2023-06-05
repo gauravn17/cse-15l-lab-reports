@@ -18,7 +18,7 @@ The lists are supposed to be merged in ascending order, but instead, they seem t
 
 **Detail the failure-inducing input and context. That might mean any or all of the command you're running, a test case, command-line arguments, working directory, even the last few commands you ran. Do your best to provide as much context as you can.**
 
- Below is the command I'm running.
+ Below is the command I'm running, with both JUnit test runs showing failures.
  
  ![Screenshot 2023-06-05 at 2 59 34 PM](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/d20e6da7-b996-4a4b-bffb-7ab1a501753c)
 
