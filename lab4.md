@@ -50,7 +50,7 @@ Finally, I pressed the `<esc>` to switch back to normal mode in Vim, and then ty
   
  ![Screenshot 2023-05-22 at 9 36 27 PM](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/d8274215-3369-46d6-83a8-1eff93f328a0)
  
-**Changes being pushed to github:**
+**Changes being successfully pushed to github:**
 
 ![Screenshot 2023-06-05 at 4 07 03 PM](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/0d620f57-d388-4162-828c-deb67cd36487)
 
