@@ -38,11 +38,11 @@ Here is the `selectionSort` method. I am pretty sure the  `while` loops and `if`
 
 ## 4. Final TA Response
 
-Let us look at the file & directory structure.
+ **File & directory structure needed**.
  
 ![Screenshot 2023-06-05 at 11 00 41 PM](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/85dafe52-d449-4924-9747-63af64c9a203)
 
-**Description of solution**
+**Description of solution to fix the bug**
 
 To fix this bug, you must change the line containing the first `if` statement: `if(arr[j] > arr[index])` to `if(arr[j] < arr[index])` (replace the greater than operator with a less than operator). This bug was causing the greater of the two elements compared at each iteration to be assigned to `arr` , instead of the lesser of the two elements. Thus, the bug was causing the array to be sorted in descending order instead of ascending order. By switching the sign from `>` to `<`, the bug is fixed, and the code will now sort the lists in ascending order.
 
