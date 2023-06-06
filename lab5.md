@@ -1,10 +1,10 @@
 # Lab Report 5
 
-## 1. EdStem Post from Student : EDSTEM thread 05/06/23
+## 1. PART 1: EdStem Post from Student : EDSTEM thread 05/06/23
 
 ## **What environment are you using (computer, operating system, web browser, terminal/editor, and so on)?**
 
-Visual Studio Code & JUnit
+Visual Studio Code & JUnit on MAC OS.
 
 ## **Detail the symptom you're seeing. Be specific; include both what you're seeing and what you expected to see instead. Screenshots are great, copy-pasted terminal output is also great. Avoid saying “it doesn't work”.**
 
@@ -17,11 +17,21 @@ I am trying to debug the Sort.java file to sort two arrays in ascending order us
 
 ![Screenshot 2023-06-05 at 10 42 43 PM](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/4e585194-03a3-4465-afd3-0909f70c144e)
 
+Symptom: 2 Errors while running Junit tests on selection sort algorithm, as seen below:
+
+![Screenshot 2023-06-05 at 10 35 29 PM](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/90563b4c-22bb-4b62-ae78-de5fbba3af29)
+
+
 ## **Detail the failure-inducing input and context. That might mean any or all of the command you're running, a test case, command-line arguments, working directory, even the last few commands you ran. Do your best to provide as much context as you can.**
 
  Below is the command I'm running `bash test.sh`, with its output, which is both JUnit test runs failing.
- 
+
 ![Screenshot 2023-06-05 at 10 35 29 PM](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/90563b4c-22bb-4b62-ae78-de5fbba3af29)
+
+Failure inducing input: 
+
+`{9, 14, 3, 2, 43, 11, 58, 22}`,   Expected output = `{2, 3, 9, 11, 14, 22, 43, 58}`
+`{3, 1, 5, 6, 43, 12, 8, 21}`, Expected output = `{1, 3, 5, 6, 8, 12, 21, 43}`
 
 
 ## 2. TA Response 1 :
@@ -54,6 +64,6 @@ Terminal result after updating code:
 
 Both tests passed , and bugs are fixed ! 
 
-## 5. Reflection
+## PART 2: Reflection
 
 Something new that I learned in CSE 15L was Vim. I had never used Vim before, and found it very interesting how it could be used to edit files from the command line itself,and I am sure Vim will be a powerful tool in the future working with software. I cannot wait to research it in further detail. I also gained a better understanding of working with files and navigating directories (with commands such as `cd`,`ls` ,`pwd`, etc) which is something that is invaluable in troubleshooting even in my programming assignments for other classes.
