@@ -28,11 +28,11 @@ The lists are supposed to be merged in ascending order, but instead, they appear
 
 ## 2. TA Response 1 :
 
-Can I see the code for your selection sort method so I can look through the logic of the method and we can debug from there?
+Can I see the code for your `selectionSort` method so I can look through the logic of the method and we can debug from there?
 
 ## 3. Response from Student
 
-Here is the `selection sort` method. I am pretty sure the  `while` loops and `if` statements are correct, and am unsure why my tests are failing.
+Here is the `selectionSort` method. I am pretty sure the  `while` loops and `if` statements are correct, and am unsure why my tests are failing.
 
 ![Screenshot 2023-06-05 at 10 42 36 PM](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/dbf65967-2c55-471b-b8e2-9ce1db1d89ac)
 
