@@ -2,11 +2,11 @@
 
 ## 1. EdStem Post from Student : EDSTEM thread 05/06/23
 
-**What environment are you using (computer, operating system, web browser, terminal/editor, and so on)?**
+## **What environment are you using (computer, operating system, web browser, terminal/editor, and so on)?**
 
 Visual Studio Code & JUnit
 
-**Detail the symptom you're seeing. Be specific; include both what you're seeing and what you expected to see instead. Screenshots are great, copy-pasted terminal output is also great. Avoid saying “it doesn't work”.**
+## **Detail the symptom you're seeing. Be specific; include both what you're seeing and what you expected to see instead. Screenshots are great, copy-pasted terminal output is also great. Avoid saying “it doesn't work”.**
 
 I am trying to debug the Sort.java file to sort two arrays in ascending order using selection sort, and both the testSelection1 and testSelection2 tests are failing . Here are the screenshots of the  `Sort.java` and `SelectionSortTests.java` files , as well as my `bash` script, `test.sh`  :
 
@@ -19,7 +19,7 @@ I am trying to debug the Sort.java file to sort two arrays in ascending order us
 
 The lists are supposed to be merged in ascending order, but instead, they appear to be getting merged in descending order.
 
-**Detail the failure-inducing input and context. That might mean any or all of the command you're running, a test case, command-line arguments, working directory, even the last few commands you ran. Do your best to provide as much context as you can.**
+## **Detail the failure-inducing input and context. That might mean any or all of the command you're running, a test case, command-line arguments, working directory, even the last few commands you ran. Do your best to provide as much context as you can.**
 
  Below is the command I'm running `bash test.sh`, with its output, which is both JUnit test runs failing.
  
