@@ -42,7 +42,7 @@ Here is the `selectionSort` method. I am pretty sure the  `while` loops and `if`
 
 **Description of solution to fix the bug**
 
-To fix this bug, you must change the line containing the first `if` statement: in `line 14`, `if(arr[j] > arr[index])` to `if(arr[j] < arr[index])` (replace the greater than operator with a less than operator). This bug was causing the greater of the two elements compared at each iteration to be assigned to `arr` , instead of the lesser of the two elements. Thus, the bug was causing the array to be sorted in descending order instead of ascending order. By switching the sign from `>` to `<`, the bug is fixed, and the code will now sort the lists in ascending order.
+To fix this bug, you must change the line containing the first `if` statement: in `line 15` of `Sort.java`, `if(arr[j] > arr[index])` to `if(arr[j] < arr[index])` (replace the greater than operator with a less than operator). This bug was causing the greater of the two elements compared at each iteration to be assigned to `arr` , instead of the lesser of the two elements. Thus, the bug was causing the array to be sorted in descending order instead of ascending order. By switching the sign from `>` to `<`, the bug is fixed, and the code will now sort the lists in ascending order.
 
 Updated code:
 
