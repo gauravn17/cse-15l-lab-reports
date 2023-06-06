@@ -10,7 +10,7 @@ Visual Studio Code & JUnit
 
 I am trying to debug the Sort.java file to sort two arrays in ascending order using selection sort, and both the testSelection1 and testSelection2 tests are failing . Here are the screenshots of the  `Sort.java` and `SelectionSortTests.java` files , as well as my `bash` script, `test.sh`  :
 
-![Screenshot 2023-06-05 at 10 56 54 PM](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/fdc85bd8-2a89-4ba3-a8dd-6b96efcbd242)
+![Screenshot 2023-06-05 at 10 57 45 PM](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/ef40ceae-0a67-4127-a667-2d9f6891654c)
 
 ![Screenshot 2023-06-05 at 10 42 40 PM](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/081db1b0-9ea8-4a45-a12e-a51fdd67c45f)
 
@@ -39,18 +39,16 @@ Here is the `selection sort` method. I am pretty sure the  `while` loops and `if
 ## 4. Final TA Response
 
 Let us look at the file & directory structure.
-
-![image](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/96b4b52d-2293-4e96-8193-bc1d4c48a69b)
-
  
+![Screenshot 2023-06-05 at 11 00 41 PM](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/85dafe52-d449-4924-9747-63af64c9a203)
 
 **Description of solution**
 
-To fix this bug, you must change the line containing the first `if` statement: `if(arr[j] > arr[index])` to `if(arr[j] < arr[index])` (replace the greater than operator with a less than operator). This line compares the element at `index1`in `list1` to the element at `index2` in `list2`. This bug was causing greater of the two elements compared at each iteration to be added to the results list, instead of the lesser of the two elements. Thus, the bug was causing the list to be merged in descending order instead of ascending order. By switching the sign from `>` to `<`, the bug is fixed, and the code will now merge the lists in ascending order.
+To fix this bug, you must change the line containing the first `if` statement: `if(arr[j] > arr[index])` to `if(arr[j] < arr[index])` (replace the greater than operator with a less than operator). This bug was causing the greater of the two elements compared at each iteration to be assigned to arr , instead of the lesser of the two elements. Thus, the bug was causing the array to be sorted in descending order instead of ascending order. By switching the sign from `>` to `<`, the bug is fixed, and the code will now sort the lists in ascending order.
 
 Updated code:
 
-![Screenshot 2023-06-05 at 10 42 36 PM](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/dbf65967-2c55-471b-b8e2-9ce1db1d89ac)
+![Screenshot 2023-06-05 at 10 57 52 PM](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/5155ddde-b188-46ba-bd82-d15fa30f704c)
 
 
 ## 5. Reflection
