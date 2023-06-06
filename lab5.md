@@ -50,6 +50,11 @@ Updated code:
 
 ![Screenshot 2023-06-05 at 10 57 52 PM](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/5155ddde-b188-46ba-bd82-d15fa30f704c)
 
+Terminal result after updating code:
+
+![Screenshot 2023-06-05 at 11 10 44 PM](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/2d993a78-e817-4b3a-81ab-0b5b8b5ff5e5)
+
+Tests passed , and bugs are fixed ! 
 
 ## 5. Reflection
 
