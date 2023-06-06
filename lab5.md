@@ -47,7 +47,7 @@ Let us look through the contents of each file before fixing the bug
 ![image](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/1f450e83-07ae-456a-8a80-acaa27a63c95)
 
 ![image](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/44dd759e-80db-4608-963a-a95a8d8d0105)
-
+ 
 
 **Description of solution**
 
