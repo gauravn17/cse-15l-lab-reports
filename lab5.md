@@ -42,7 +42,7 @@ Here is the `selectionSort` method. I am pretty sure the  `while` loops and `if`
 
 **Description of solution to fix the bug**
 
-To fix this bug, you must change the line containing the first `if` statement: `if(arr[j] > arr[index])` to `if(arr[j] < arr[index])` (replace the greater than operator with a less than operator). This bug was causing the greater of the two elements compared at each iteration to be assigned to `arr` , instead of the lesser of the two elements. Thus, the bug was causing the array to be sorted in descending order instead of ascending order. By switching the sign from `>` to `<`, the bug is fixed, and the code will now sort the lists in ascending order.
+To fix this bug, you must change the line containing the first `if` statement: in `line 14`, `if(arr[j] > arr[index])` to `if(arr[j] < arr[index])` (replace the greater than operator with a less than operator). This bug was causing the greater of the two elements compared at each iteration to be assigned to `arr` , instead of the lesser of the two elements. Thus, the bug was causing the array to be sorted in descending order instead of ascending order. By switching the sign from `>` to `<`, the bug is fixed, and the code will now sort the lists in ascending order.
 
 Updated code:
 
@@ -52,7 +52,7 @@ Terminal result after updating code:
 
 ![Screenshot 2023-06-05 at 11 10 44 PM](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/2d993a78-e817-4b3a-81ab-0b5b8b5ff5e5)
 
-Tests passed , and bugs are fixed ! 
+Both tests passed , and bugs are fixed ! 
 
 ## 5. Reflection
 
