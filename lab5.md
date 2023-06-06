@@ -30,8 +30,8 @@ Symptom: 2 Errors while running Junit tests on selection sort algorithm, as seen
 
 Failure inducing input: 
 
-`{9, 14, 3, 2, 43, 11, 58, 22}`,   Expected output = `{2, 3, 9, 11, 14, 22, 43, 58}`
-`{3, 1, 5, 6, 43, 12, 8, 21}`, Expected output = `{1, 3, 5, 6, 8, 12, 21, 43}`
+- `{9, 14, 3, 2, 43, 11, 58, 22}`,   Expected output = `{2, 3, 9, 11, 14, 22, 43, 58}`
+- `{3, 1, 5, 6, 43, 12, 8, 21}`, Expected output = `{1, 3, 5, 6, 8, 12, 21, 43}`
 
 
 ## 2. TA Response 1 :
