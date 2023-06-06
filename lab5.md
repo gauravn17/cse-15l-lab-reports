@@ -17,8 +17,6 @@ I am trying to debug the Sort.java file to sort two arrays in ascending order us
 
 ![Screenshot 2023-06-05 at 10 42 43 PM](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/4e585194-03a3-4465-afd3-0909f70c144e)
 
-The lists are supposed to be sorted in ascending order, but instead, they appear to be getting sorted in descending order.
-
 ## **Detail the failure-inducing input and context. That might mean any or all of the command you're running, a test case, command-line arguments, working directory, even the last few commands you ran. Do your best to provide as much context as you can.**
 
  Below is the command I'm running `bash test.sh`, with its output, which is both JUnit test runs failing.
