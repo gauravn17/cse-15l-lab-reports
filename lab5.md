@@ -8,7 +8,7 @@ Visual Studio Code & JUnit on MAC OS.
 
 ## **Detail the symptom you're seeing. Be specific; include both what you're seeing and what you expected to see instead. Screenshots are great, copy-pasted terminal output is also great. Avoid saying “it doesn't work”.**
 
-I am trying to debug the Sort.java file to sort two arrays in ascending order using selection sort, and both the `testSelection1` and `testSelection2` tests are failing . Here are the screenshots of the  `Sort.java` and `SelectionSortTests.java` files , as well as my `bash` script, `test.sh`  :
+I am trying to debug the `Sort.java` file to sort two arrays in ascending order using selection sort, and both the `testSelection1` and `testSelection2` tests are failing . Here are the screenshots of the  `Sort.java` and `SelectionSortTests.java` files , as well as my `bash` script, `test.sh`  :
 
 ![Screenshot 2023-06-05 at 10 57 45 PM](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/ef40ceae-0a67-4127-a667-2d9f6891654c)
 
