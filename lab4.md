@@ -33,7 +33,7 @@ I then pressed `i` to enter insert mode in Vim, and typed `2` to correct the err
   ![Screenshot 2023-05-22 at 9 04 02 PM](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/17ef8b81-69c5-4f23-bab8-06a47e388263)
 
 
-Finally, I pressed the `<esc>` to switch back to normal mode in Vim, and then typed ```:wq```to exit Vim and save the file.
+Finally, I pressed the `<esc>` to switch back to normal mode in Vim, and then typed ```:wq```to exit Vim and save the file. 
   
 ![Screenshot 2023-05-22 at 9 05 33 PM](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/99ceb63c-0f48-44ec-8351-976597309562)
 
