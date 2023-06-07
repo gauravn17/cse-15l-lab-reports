@@ -39,14 +39,14 @@ Finally, I pressed the `<esc>` to switch back to normal mode in Vim, and then ty
 
 # Step 5: Run the tests, demonstrating that they now succeed
 
-  For this step, I re-ran the tests by doing `bash test.sh` and `<enter>` again, this time showing that the tests passed.
+  For this step, I re-ran the tests by doing `bash t`, `<tab>` to autocomplete to `bash test.sh` and pressed `<enter>` again, this time showing that the tests passed.
 
   ![Screenshot 2023-05-22 at 9 09 29 PM](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/f13f7917-f13e-4819-a365-670517f6c2a7)
 
 
 # Step 6: Commit and push the resulting change to your Github account
   
- For this step, I used `git add ListExamples.java` and `<enter>` to track the file so that when `git commit` is called, it knows which file to include. I then typed `git commit -m "changes"` and `<enter>` to record the repository changes. Finally, I typed `git push` and `<enter>`, my username gauravn17 and `<enter>`, my GitHub password and `<enter>` again . This updated the commit changes and sent them to the remote repository.
+ For this step, I used `git add L`, `<tab>` to autocomplete to `git add ListExamples` and typed `.java` at the end and pressed `<enter>`. This git action tracks the file so that when `git commit` is called, it knows which file to include. I then typed `git commit -m "changes"` and `<enter>` to record the repository changes. Finally, I typed `git push` and `<enter>`, my username gauravn17 and `<enter>`, my GitHub password and `<enter>` again . This updated the commit changes and sent them to the remote repository.
   
  ![Screenshot 2023-05-22 at 9 36 27 PM](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/d8274215-3369-46d6-83a8-1eff93f328a0)
  
