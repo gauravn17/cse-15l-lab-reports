@@ -23,7 +23,7 @@ For Step 3 , I navigated into the `lab7` directory by typing ```cd lab7``` and `
 
 
 # Step 4: Edit the code file to fix the failing test
-For Step 4, I typed ```vim ListExamples.java```, which opened Vim and the file, ```'ListExamples.java'``` that needs to be edited in the terminal.
+For Step 4, I typed ```vim L```, pressed `<tab>` to autocomplete to `vim ListExamples`, and typed `.java` at the end, and pressed `<enter>`, which opened Vim and the file, ```'ListExamples.java'``` that needs to be edited in the terminal.
   
 
 Next, the cursor was already on top of the `1` that I needed to change in ListExamples, so I typed ```x``` to delete the `1`. This was done in Vim's normal mode.
