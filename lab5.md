@@ -8,7 +8,11 @@ Visual Studio Code & JUnit on MAC OS.
 
 ## **Detail the symptom you're seeing. Be specific; include both what you're seeing and what you expected to see instead. Screenshots are great, copy-pasted terminal output is also great. Avoid saying “it doesn't work”.**
 
-I am trying to debug the `Sort.java` file to sort two arrays in ascending order using selection sort, and both the `testSelection1` and `testSelection2` tests are failing . Here are the screenshots of the  `Sort.java` and `SelectionSortTests.java` files , as well as my `bash` script, `test.sh`  :
+I am trying to debug the `Sort.java` file to sort two arrays in ascending order using selection sort, and both the `testSelection1` and `testSelection2` tests are failing . Here is the symptom: 2 Errors while running Junit tests on selection sort algorithm, as seen below.
+
+![Screenshot 2023-06-05 at 10 35 29 PM](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/90563b4c-22bb-4b62-ae78-de5fbba3af29)
+
+Here are the screenshots of the  `Sort.java` and `SelectionSortTests.java` files , as well as my `bash` script, `test.sh`  :
 
 ![Screenshot 2023-06-05 at 10 57 45 PM](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/ef40ceae-0a67-4127-a667-2d9f6891654c)
 
@@ -17,14 +21,9 @@ I am trying to debug the `Sort.java` file to sort two arrays in ascending order 
 
 ![Screenshot 2023-06-05 at 10 42 43 PM](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/4e585194-03a3-4465-afd3-0909f70c144e)
 
-Symptom: 2 Errors while running Junit tests on selection sort algorithm, as seen below:
-
-![Screenshot 2023-06-05 at 10 35 29 PM](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/90563b4c-22bb-4b62-ae78-de5fbba3af29)
-
-
 ## **Detail the failure-inducing input and context. That might mean any or all of the command you're running, a test case, command-line arguments, working directory, even the last few commands you ran. Do your best to provide as much context as you can.**
 
- Below is the command I'm running `bash test.sh`, with its output, which is both JUnit test runs failing.
+ Below is the terminal command I'm running `bash test.sh`, with its output, which is both JUnit test runs failing.
 
 ![Screenshot 2023-06-05 at 10 35 29 PM](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/90563b4c-22bb-4b62-ae78-de5fbba3af29)
 
