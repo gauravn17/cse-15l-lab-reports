@@ -28,7 +28,7 @@ Symptom: 2 Errors while running Junit tests on selection sort algorithm, as seen
 
 ![Screenshot 2023-06-05 at 10 35 29 PM](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/90563b4c-22bb-4b62-ae78-de5fbba3af29)
 
-Failure inducing input: 
+Failure inducing input in the tests: 
 
 - `{9, 14, 3, 2, 43, 11, 58, 22}`,   Expected output = `{2, 3, 9, 11, 14, 22, 43, 58}`
 - `{3, 1, 5, 6, 43, 12, 8, 21}`, Expected output = `{1, 3, 5, 6, 8, 12, 21, 43}`
@@ -36,7 +36,7 @@ Failure inducing input:
 
 ## 2. TA Response 1 :
 
-Can I see the code for your `selectionSort` method so I can look through the logic of the method and we can debug from there?
+Can I see the code for your `selectionSort` method so I can look through the logic of the method and we can debug from there? The bug must be in the looping of the `selectionSort` method.
 
 ## 3. Response from Student
 
@@ -62,7 +62,7 @@ Terminal result after updating code:
 
 ![Screenshot 2023-06-05 at 11 10 44 PM](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/2d993a78-e817-4b3a-81ab-0b5b8b5ff5e5)
 
-Both tests passed , and bugs are fixed ! 
+Both tests passed , and bugs are fixed !  
 
 ## PART 2: Reflection
 
