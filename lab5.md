@@ -65,8 +65,8 @@ Here is the `selectionSort` method. I am pretty sure the  `while` loops and `if`
 
 `bash test.sh` was the only command I ran to trigger the bug, with the bash script `test.sh` containing the lines:
 
-`javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
- java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore SelectionSortTests`
+-`javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java`
+-`java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore SelectionSortTests`
 
 **Description of what to edit to fix the bug**
 
