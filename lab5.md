@@ -35,7 +35,7 @@ Failure inducing input in the tests:
 
 ## 2. TA Response 1 :
 
-Can I see the code for your `selectionSort` method so I can look through the logic of the method and we can debug from there? The bug must be in the looping of the `selectionSort` method.
+Can I see the code specifically for your `selectionSort` method so I can look through the logic of the method and we can debug from there? The bug must be in the looping of the `selectionSort` method.
 
 ## 3. Response from Student
 
@@ -49,7 +49,26 @@ Here is the `selectionSort` method. I am pretty sure the  `while` loops and `if`
  
 ![Screenshot 2023-06-05 at 11 00 41 PM](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/85dafe52-d449-4924-9747-63af64c9a203)
 
-**Description of solution to fix the bug**
+**Contents of each file before fixing the bug**
+
+![Screenshot 2023-06-05 at 10 57 45 PM](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/ef40ceae-0a67-4127-a667-2d9f6891654c)
+
+![Screenshot 2023-06-05 at 10 42 40 PM](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/081db1b0-9ea8-4a45-a12e-a51fdd67c45f)
+
+
+![Screenshot 2023-06-05 at 10 42 43 PM](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/4e585194-03a3-4465-afd3-0909f70c144e)
+
+
+**Full command line(s) I ran to trigger the bug**
+
+![Screenshot 2023-06-05 at 10 35 29 PM](https://github.com/gauravn17/cse-15l-lab-reports/assets/93863977/90563b4c-22bb-4b62-ae78-de5fbba3af29)
+
+`bash test.sh` was the only command I ran to trigger the bug, with the bash script `test.sh` containing the lines:
+
+` javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
+ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore SelectionSortTests`
+
+**Description of what to edit to fix the bug**
 
 To fix this bug, you must change the line containing the first `if` statement: in `line 15` of `Sort.java`, `if(arr[j] > arr[index])` to `if(arr[j] < arr[index])` (replace the greater than operator with a less than operator). This bug was causing the greater of the two elements compared at each iteration to be assigned to `arr` , instead of the lesser of the two elements. Thus, the bug was causing the array to be sorted in descending order instead of ascending order. By switching the sign from `>` to `<`, the bug is fixed, and the code will now sort the lists in ascending order.
 
